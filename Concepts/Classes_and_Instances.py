@@ -19,7 +19,7 @@ emp_2 = Employee('Test', 'User', 60000)
 print(emp_1.email)
 print(emp_2.email)
 
-print(emp_1.fullname()) # calling method in instance
+print(emp_1.fullname()) # calling method in instance . No need of passing an argument 
 print(emp_2.fullname())
 
 print(Employee.fullname(emp_1)) # calling method in class
